@@ -8,6 +8,7 @@
 //  对UIImageView的扩展
 
 import Foundation
+import UIKit
 
 extension UIImageView {
     

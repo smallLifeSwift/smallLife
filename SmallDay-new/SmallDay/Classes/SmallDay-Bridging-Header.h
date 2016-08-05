@@ -8,6 +8,6 @@
 
 #ifndef SmallDay_Bridging_Header_h
 #define SmallDay_Bridging_Header_h
-
+#import "UIImageView+WebCache.h"
 
 #endif /* SmallDay_Bridging_Header_h */

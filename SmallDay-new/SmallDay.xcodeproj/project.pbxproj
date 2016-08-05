@@ -41,6 +41,20 @@
 		93932D311D545902003A916C /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93932D031D545902003A916C /* libSocialSina.a */; };
 		93932D321D545902003A916C /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93932D061D545902003A916C /* libSocialWechat.a */; };
 		93932D331D545902003A916C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93932D071D545902003A916C /* libWeChatSDK.a */; };
+		93932D371D5461B6003A916C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D361D5461B6003A916C /* MainTabBarController.swift */; };
+		93932D411D546456003A916C /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 93932D3A1D546456003A916C /* RegExCategories.m */; };
+		93932D431D546456003A916C /* UIBarButtonItem+wxnBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D3C1D546456003A916C /* UIBarButtonItem+wxnBarButtonItem.swift */; };
+		93932D441D546456003A916C /* UIColor+wnxColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D3D1D546456003A916C /* UIColor+wnxColor.swift */; };
+		93932D451D546456003A916C /* UIImage+wnxImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D3E1D546456003A916C /* UIImage+wnxImage.swift */; };
+		93932D461D546456003A916C /* UIImageView+wnxImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D3F1D546456003A916C /* UIImageView+wnxImage.swift */; };
+		93932D471D546456003A916C /* UIView+wnxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D401D546456003A916C /* UIView+wnxView.swift */; };
+		93932D491D546476003A916C /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D481D546476003A916C /* theme.swift */; };
+		93932D531D5468E9003A916C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D521D5468E9003A916C /* MainNavigationController.swift */; };
+		93932D551D54703A003A916C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D541D54703A003A916C /* MainViewController.swift */; };
+		93932D571D5472D5003A916C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D561D5472D5003A916C /* ExploreViewController.swift */; };
+		93932D591D5472F6003A916C /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D581D5472F6003A916C /* MeViewController.swift */; };
+		93932D5B1D547323003A916C /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D5A1D547323003A916C /* ExperienceViewController.swift */; };
+		93932D5D1D547334003A916C /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93932D5C1D547334003A916C /* ClassifyViewController.swift */; };
 		93AEFB8B1D542F77001FB004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AEFB8A1D542F77001FB004 /* AppDelegate.swift */; };
 		93AEFB921D542F77001FB004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AEFB911D542F77001FB004 /* Assets.xcassets */; };
 		93AEFB951D542F77001FB004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AEFB931D542F77001FB004 /* LaunchScreen.storyboard */; };
@@ -126,6 +140,21 @@
 		93932D091D545902003A916C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		93932D0A1D545902003A916C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		93932D351D545C70003A916C /* SmallDay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmallDay-Bridging-Header.h"; sourceTree = "<group>"; };
+		93932D361D5461B6003A916C /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		93932D391D546456003A916C /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		93932D3A1D546456003A916C /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
+		93932D3C1D546456003A916C /* UIBarButtonItem+wxnBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+wxnBarButtonItem.swift"; sourceTree = "<group>"; };
+		93932D3D1D546456003A916C /* UIColor+wnxColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+wnxColor.swift"; sourceTree = "<group>"; };
+		93932D3E1D546456003A916C /* UIImage+wnxImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+wnxImage.swift"; sourceTree = "<group>"; };
+		93932D3F1D546456003A916C /* UIImageView+wnxImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+wnxImage.swift"; sourceTree = "<group>"; };
+		93932D401D546456003A916C /* UIView+wnxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+wnxView.swift"; sourceTree = "<group>"; };
+		93932D481D546476003A916C /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		93932D521D5468E9003A916C /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		93932D541D54703A003A916C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		93932D561D5472D5003A916C /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		93932D581D5472F6003A916C /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		93932D5A1D547323003A916C /* ExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		93932D5C1D547334003A916C /* ClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
 		93AEFB871D542F77001FB004 /* SmallDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AEFB8A1D542F77001FB004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		93AEFB911D542F77001FB004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,12 +237,12 @@
 		93932CB31D545902003A916C /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				93932CB41D545902003A916C /* Classify */,
-				93932CB51D545902003A916C /* Experience */,
 				93932CB61D545902003A916C /* Explore */,
-				93932CB71D545902003A916C /* extension */,
-				93932CC01D545902003A916C /* Main */,
+				93932CB51D545902003A916C /* Experience */,
+				93932CB41D545902003A916C /* Classify */,
 				93932CC11D545902003A916C /* Me */,
+				93932D381D546456003A916C /* extension */,
+				93932CC01D545902003A916C /* Main */,
 				93932CC21D545902003A916C /* Other */,
 			);
 			path = UI;
@@ -222,6 +251,7 @@
 		93932CB41D545902003A916C /* Classify */ = {
 			isa = PBXGroup;
 			children = (
+				93932D5C1D547334003A916C /* ClassifyViewController.swift */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -229,6 +259,7 @@
 		93932CB51D545902003A916C /* Experience */ = {
 			isa = PBXGroup;
 			children = (
+				93932D5A1D547323003A916C /* ExperienceViewController.swift */,
 			);
 			path = Experience;
 			sourceTree = "<group>";
@@ -236,20 +267,17 @@
 		93932CB61D545902003A916C /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				93932D561D5472D5003A916C /* ExploreViewController.swift */,
 			);
 			path = Explore;
-			sourceTree = "<group>";
-		};
-		93932CB71D545902003A916C /* extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = extension;
 			sourceTree = "<group>";
 		};
 		93932CC01D545902003A916C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				93932D361D5461B6003A916C /* MainTabBarController.swift */,
+				93932D521D5468E9003A916C /* MainNavigationController.swift */,
+				93932D541D54703A003A916C /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -257,6 +285,7 @@
 		93932CC11D545902003A916C /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				93932D581D5472F6003A916C /* MeViewController.swift */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -264,6 +293,7 @@
 		93932CC21D545902003A916C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				93932D481D546476003A916C /* theme.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -391,6 +421,20 @@
 				93932D0A1D545902003A916C /* WXApiObject.h */,
 			);
 			path = Wechat;
+			sourceTree = "<group>";
+		};
+		93932D381D546456003A916C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				93932D391D546456003A916C /* RegExCategories.h */,
+				93932D3A1D546456003A916C /* RegExCategories.m */,
+				93932D3C1D546456003A916C /* UIBarButtonItem+wxnBarButtonItem.swift */,
+				93932D3D1D546456003A916C /* UIColor+wnxColor.swift */,
+				93932D3E1D546456003A916C /* UIImage+wnxImage.swift */,
+				93932D3F1D546456003A916C /* UIImageView+wnxImage.swift */,
+				93932D401D546456003A916C /* UIView+wnxView.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 		93AEFB7E1D542F76001FB004 = {
@@ -548,20 +592,34 @@
 			files = (
 				93932D231D545902003A916C /* UIImageView+HighlightedWebCache.m in Sources */,
 				93932D1A1D545902003A916C /* SDWebImageDecoder.m in Sources */,
+				93932D371D5461B6003A916C /* MainTabBarController.swift in Sources */,
+				93932D5D1D547334003A916C /* ClassifyViewController.swift in Sources */,
 				93932D241D545902003A916C /* UIImageView+WebCache.m in Sources */,
+				93932D461D546456003A916C /* UIImageView+wnxImage.swift in Sources */,
+				93932D491D546476003A916C /* theme.swift in Sources */,
+				93932D411D546456003A916C /* RegExCategories.m in Sources */,
 				93932D1C1D545902003A916C /* SDWebImageDownloaderOperation.m in Sources */,
 				93932D1D1D545902003A916C /* SDWebImageManager.m in Sources */,
+				93932D431D546456003A916C /* UIBarButtonItem+wxnBarButtonItem.swift in Sources */,
 				93932D1B1D545902003A916C /* SDWebImageDownloader.m in Sources */,
 				93932D161D545902003A916C /* MKAnnotationView+WebCache.m in Sources */,
+				93932D5B1D547323003A916C /* ExperienceViewController.swift in Sources */,
+				93932D571D5472D5003A916C /* ExploreViewController.swift in Sources */,
 				93932D191D545902003A916C /* SDWebImageCompat.m in Sources */,
+				93932D451D546456003A916C /* UIImage+wnxImage.swift in Sources */,
 				93932D1E1D545902003A916C /* SDWebImagePrefetcher.m in Sources */,
 				93932D251D545902003A916C /* UIView+WebCacheOperation.m in Sources */,
+				93932D471D546456003A916C /* UIView+wnxView.swift in Sources */,
 				93932D211D545902003A916C /* UIImage+MultiFormat.m in Sources */,
+				93932D441D546456003A916C /* UIColor+wnxColor.swift in Sources */,
 				93932D1F1D545902003A916C /* UIButton+WebCache.m in Sources */,
 				93932D181D545902003A916C /* SDImageCache.m in Sources */,
 				93AEFB8B1D542F77001FB004 /* AppDelegate.swift in Sources */,
 				93932D201D545902003A916C /* UIImage+GIF.m in Sources */,
+				93932D591D5472F6003A916C /* MeViewController.swift in Sources */,
 				93932D171D545902003A916C /* NSData+ImageContentType.m in Sources */,
+				93932D551D54703A003A916C /* MainViewController.swift in Sources */,
+				93932D531D5468E9003A916C /* MainNavigationController.swift in Sources */,
 				93932D221D545902003A916C /* UIImage+WebP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
