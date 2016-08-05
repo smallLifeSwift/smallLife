@@ -125,6 +125,7 @@
 		93932D081D545902003A916C /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
 		93932D091D545902003A916C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		93932D0A1D545902003A916C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		93932D351D545C70003A916C /* SmallDay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmallDay-Bridging-Header.h"; sourceTree = "<group>"; };
 		93AEFB871D542F77001FB004 /* SmallDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AEFB8A1D542F77001FB004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		93AEFB911D542F77001FB004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				93AEFB8A1D542F77001FB004 /* AppDelegate.swift */,
+				93932D351D545C70003A916C /* SmallDay-Bridging-Header.h */,
 				93932CAB1D545902003A916C /* BusinessModel */,
 				93932CAC1D545902003A916C /* CustomData */,
 				93932CAD1D545902003A916C /* imageFile */,
@@ -703,6 +705,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = stago.SmallDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Stago/Desktop/小日子/SmallDay-new/SmallDay/Classes/SmallDay-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -722,6 +725,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = stago.SmallDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Stago/Desktop/小日子/SmallDay-new/SmallDay/Classes/SmallDay-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
